@@ -745,7 +745,7 @@ make
 ./bench_client --pub 1 --sub 1 --rate 10000 --msg-size 64 --duration 10
 
 # 10 發送連線、3 訂閱連線，總發送約 100k QPS（10k * 10）
-./bench_client --pub 10 --sub 3 --rate 10000 --msg-size 80 --duration 15 --threads 4
+./bench_client --pub 1 --sub 3 --rate 10000 --msg-size 80 --duration 15
 ```
 
 ```sh
